@@ -10,21 +10,19 @@
 ############################
 
 # Name of website
-title: My website
+title: Meditations on code
 
 # Your name to show in the footer
-author: Some Person
+author: Christopher Redden
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
+  Blog: "blog"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "https://christopherredden.github.io"
 
 ################
 # --- Logo --- #
@@ -50,14 +48,10 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  github: christopherredden
+  twitter: topher_redden
+  #youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -72,8 +66,8 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
+  mastodon: mastadon.gamedev.place/@christopherr
+  bluesky: topher-r.bsky.social
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
@@ -85,7 +79,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: My personal musics on game code and game engines
 
 ###########################
 # --- General options --- #
@@ -100,7 +94,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "https://christopherredden.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
